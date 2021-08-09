@@ -1,6 +1,6 @@
 clear
 
-import delimited "/Users/brycedietrich/Research_Group Dropbox/bryce dietrich/dietrich_ko_replication/data/tableS5_results.csv", clear 
+import delimited "/Users/brycedietrich/finding_fauci_replication/data/tableS5_results.csv", clear 
 * NOTE #1: you must have the firthlogit and the estout command. You can install it using:
 * ssc install firthlogit, replace
 * ssc install estout, replace
@@ -33,7 +33,7 @@ firthlogit health_text cnn msnbc week2 cnn_times_week2 msnbc_times_week2
 estat ic
 estimates store model4
 
-esttab model1 model2 model3 model4 using "/Users/brycedietrich/Research_Group Dropbox/bryce dietrich/dietrich_ko_replication/output/tableS5.html", replace ///
+esttab model1 model2 model3 model4 using "/Users/brycedietrich/finding_fauci_replication/output/tableS5.html", replace ///
 	label se(3) b(3) aic scalars(ll) ///
 	star(* .1 ** .05 *** .01) ///	
 	order(_cons) ///
