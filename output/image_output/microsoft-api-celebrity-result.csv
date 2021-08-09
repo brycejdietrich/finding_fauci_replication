@@ -1,0 +1,12 @@
+filename,num_celebrities,celebrity,detection_confidence,name,face_bound,left,top,width,height
+FOXNEWSW_20200309_130000_Americas_Newsroom_003119.jpg,1,celebrity1,0.9997034668922424,Maria Bartiromo,"[[539, 109], [615, 109], [615, 185], [539, 185]]",539,109,76,76
+FOXNEWSW_20200211_140000_Americas_Newsroom_000599.jpg,1,celebrity1,0.9980865716934204,Marie Harf,"[[296, 84], [398, 84], [398, 186], [296, 186]]",296,84,102,102
+FOXNEWSW_20200306_230000_Special_Report_With_Bret_Baier_000060.jpg,2,celebrity1,0.9976100921630859,Mike Pence,"[[145, 79], [234, 79], [234, 168], [145, 168]]",145,79,89,89
+FOXNEWSW_20200306_230000_Special_Report_With_Bret_Baier_000060.jpg,2,celebrity2,0.9999960660934448,Deborah Birx,"[[495, 99], [582, 99], [582, 186], [495, 186]]",495,99,87,87
+FOXNEWSW_20200307_170000_Americas_News_Headquarters_007200.jpg,1,celebrity1,0.9966349005699158,Gillian Turner,"[[140, 77], [190, 77], [190, 127], [140, 127]]",140,77,50,50
+FOXNEWSW_20200309_233000_The_Story_With_Martha_MacCallum_000538.jpg,2,celebrity1,0.9999567270278931,Cedric Richmond,"[[486, 67], [579, 67], [579, 160], [486, 160]]",486,67,93,93
+FOXNEWSW_20200309_233000_The_Story_With_Martha_MacCallum_000538.jpg,2,celebrity2,0.9997805953025818,Martha MacCallum,"[[138, 67], [214, 67], [214, 143], [138, 143]]",138,67,76,76
+FOXNEWSW_20200226_230000_Special_Report_With_Bret_Baier_002278.jpg,2,celebrity1,0.9999985694885254,Donald Trump,"[[357, 68], [438, 68], [438, 149], [357, 149]]",357,68,81,81
+FOXNEWSW_20200226_230000_Special_Report_With_Bret_Baier_002278.jpg,2,celebrity2,0.9999828338623047,Mike Pence,"[[89, 97], [163, 97], [163, 171], [89, 171]]",89,97,74,74
+FOXNEWSW_20200229_170000_Americas_News_Headquarters_001438.jpg,2,celebrity1,0.9994528889656067,Kristin Fisher,"[[147, 71], [229, 71], [229, 153], [147, 153]]",147,71,82,82
+FOXNEWSW_20200229_170000_Americas_News_Headquarters_001438.jpg,2,celebrity2,0.9998136162757874,Marsha Blackburn,"[[484, 81], [563, 81], [563, 160], [484, 160]]",484,81,79,79
