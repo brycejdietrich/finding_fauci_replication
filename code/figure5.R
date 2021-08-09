@@ -1,4 +1,4 @@
-setwd('/Users/brycedietrich/Research_Group Dropbox/bryce dietrich/dietrich_ko_replication/')
+setwd('/Users/brycedietrich/finding_fauci_replication/')
 
 library(MASS)
 library(ggplot2)
