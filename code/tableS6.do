@@ -1,6 +1,6 @@
 clear
 
-import delimited "/Users/brycedietrich/Research_Group Dropbox/bryce dietrich/dietrich_ko_replication/data/tableS6_results.csv", clear 
+import delimited "/Users/brycedietrich/finding_fauci_replication/data/tableS6_results.csv", clear 
 * NOTE #1: you must have the firthlogit and the estout command. You can install it using:
 * ssc install firthlogit, replace
 * ssc install estout, replace
@@ -31,7 +31,7 @@ firthlogit fauci cnn msnbc mentions_death2 mentions_health2 cnn_times_death cnn_
 estat ic
 estimates store model2
 
-esttab model1 model2 using "/Users/brycedietrich/Research_Group Dropbox/bryce dietrich/dietrich_ko_replication/output/tableS6.html", replace ///
+esttab model1 model2 using "/Users/brycedietrich/finding_fauci_replication/output/tableS6.html", replace ///
 	label se(3) b(3) aic scalars(ll) ///
 	star(* .1 ** .05 *** .01) ///	
 	order(_cons) ///
